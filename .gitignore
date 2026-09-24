@@ -1,0 +1,25 @@
+# Môi trường ảo
+venv/
+.venv/
+env/
+
+# File cấu hình chứa Token & Khóa bí mật (BẢO MẬT)
+.env
+
+# Dữ liệu nội bộ của bot
+storage/
+*.db
+*.sqlite3
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
